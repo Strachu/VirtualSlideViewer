@@ -36,6 +36,9 @@ and clone the repository by executing the command:
 `git clone https://github.com/Strachu/VirtualSlideViewer.git` or alternatively, click the "Download ZIP" button at the side
 panel of this page.
 
+# How to use
+See [User Guide](https://github.com/Strachu/VirtualSlideViewer/wiki/User-Guide)
+
 # Libraries
 The application uses the following libraries:
 - Swing for the creation of graphical user interface
