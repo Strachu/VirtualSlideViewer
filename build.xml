@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project VirtualSlideViewer with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="build/VirtualSlideViewer.jar">
+            <manifest>
+                <attribute name="Main-Class" value="virtualslideviewer.Main"/>
+                <attribute name="Class-Path" value=". lib/joda-time-2.2.jar lib/kryo-2.24.0.jar lib/logback-classic-1.1.1.jar lib/logback-core-1.1.1.jar lib/guava-17.0.jar lib/formats-common.jar lib/ome-xml.jar lib/jai_imageio.jar lib/specification.jar lib/turbojpeg.jar lib/native-lib-loader-2.0.2.jar lib/formats-api.jar lib/formats-bsd.jar lib/formats-gpl.jar lib/slf4j-api-1.2.7.6.jar lib/org.hamcrest.core_1.3.0.v201303031735.jar lib/mockito-all-1.9.5.jar lib/ehcache-core-2.6.9.jar lib/junit.jar"/>
+            </manifest>
+            <fileset dir="bin"/>
+        </jar>
+        <delete dir="build/lib"/>
+        <mkdir dir="build/lib"/>
+        <copy file="LICENSE.txt" todir="build"/>
+        <copy file="LICENSE_THIRD_PARTY.txt" todir="build"/>
+        <copy file="lib/bin/joda-time-2.2.jar" todir="build/lib"/>
+        <copy file="lib/bin/kryo-2.24.0.jar" todir="build/lib"/>
+        <copy file="lib/bin/logback-classic-1.1.1.jar" todir="build/lib"/>
+        <copy file="lib/bin/logback-core-1.1.1.jar" todir="build/lib"/>
+        <copy file="lib/bin/guava-17.0.jar" todir="build/lib"/>
+        <copy file="lib/bin/formats-common.jar" todir="build/lib"/>
+        <copy file="lib/bin/ome-xml.jar" todir="build/lib"/>
+        <copy file="lib/bin/jai_imageio.jar" todir="build/lib"/>
+        <copy file="lib/bin/specification.jar" todir="build/lib"/>
+        <copy file="lib/bin/turbojpeg.jar" todir="build/lib"/>
+        <copy file="lib/bin/native-lib-loader-2.0.2.jar" todir="build/lib"/>
+        <copy file="lib/bin/formats-api.jar" todir="build/lib"/>
+        <copy file="lib/bin/formats-bsd.jar" todir="build/lib"/>
+        <copy file="lib/bin/formats-gpl.jar" todir="build/lib"/>
+        <copy file="lib/bin/slf4j-api-1.2.7.6.jar" todir="build/lib"/>
+        <copy file="lib/bin/ehcache-core-2.6.9.jar" todir="build/lib"/>
+    </target>
+</project>

@@ -1,0 +1,3 @@
+[submodule "lib/src/bioformats"]
+	path = lib/src/bioformats
+	url = https://github.com/openmicroscopy/bioformats.git

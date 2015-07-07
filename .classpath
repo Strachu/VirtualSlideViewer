@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/bin/slf4j-api-1.2.7.6.jar"/>
+	<classpathentry kind="lib" path="lib/bin/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+	<classpathentry kind="lib" path="lib/bin/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="lib" path="lib/bin/ehcache-core-2.6.9.jar"/>
+	<classpathentry kind="lib" path="lib/bin/formats-gpl.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/bin/formats-api.jar"/>
+	<classpathentry kind="lib" path="lib/bin/formats-bsd.jar"/>
+	<classpathentry kind="lib" path="lib/bin/formats-common.jar"/>
+	<classpathentry kind="lib" path="lib/bin/guava-17.0.jar"/>
+	<classpathentry kind="lib" path="lib/bin/jai_imageio.jar"/>
+	<classpathentry kind="lib" path="lib/bin/joda-time-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/bin/kryo-2.24.0.jar"/>
+	<classpathentry kind="lib" path="lib/bin/logback-classic-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/bin/logback-core-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/bin/native-lib-loader-2.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/bin/ome-xml.jar"/>
+	<classpathentry kind="lib" path="lib/bin/specification.jar"/>
+	<classpathentry kind="lib" path="lib/bin/turbojpeg.jar"/>
+	<classpathentry kind="output" path="bin"/>
+	<referencedentry kind="lib" path="lib/bin/formats-api.jar"/>
+	<referencedentry kind="lib" path="lib/bin/formats-common.jar"/>
+	<referencedentry kind="lib" path="lib/bin/formats-bsd.jar"/>
+	<referencedentry kind="lib" path="lib/bin/ome-xml.jar"/>
+</classpath>
